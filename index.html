@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Business Name</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Materialize CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Custom CSS -->
+  <style>
+    /* Custom styles go here */
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #DFF5FF; /* Light Blue */
+    }
+    .navbar {
+      background-color: #ff9900; /* orange */
+    }
+    .jumbotron {
+      background-image: url('background-image.jpg'); /* Replace with your image */
+      background-size: cover;
+      color: #fff;
+      text-align: center;
+      padding: 100px 0;
+      background-color: #7475d3; /* Purple */
+    }
+    .jumbotron h1 {
+      font-size: 4rem;
+      font-weight: bold;
+    }
+    .jumbotron p {
+      font-size: 1.5rem;
+    }
+    .btn-primary {
+      background-color: #ff9900; /* orange */
+      border-color: #ff9900; /* orange */
+      transition: background-color 0.3s ease;
+    }
+    .btn-primary:hover {
+      background-color: #ff9900; /* orange */
+      border-color: #ff9900; /* orange */
+    }
+    .feature-icon {
+      font-size: 3rem;
+      color: #67C6E3; /* Light Blue */
+      transition: transform 0.3s ease;
+    }
+    .feature-icon:hover {
+      transform: scale(1.2);
+    }
+    .footer {
+      background-color: #31363F; /* Dark Blue */
+      color: #fff;
+      padding: 50px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Your Business Name</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Welcome to Your Business</h1>
+      <p class="lead">Your business tagline or brief description goes here.</p>
+      <a href="#contact" class="btn btn-primary btn-lg">Get Started</a>
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <section id="features" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="text-center">
+            <i class="fas fa-chart-line feature-icon mb-3"></i>
+            <h3>Feature 1</h3>
+            <p>Description of feature 1.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="text-center">
+            <i class="fas fa-cogs feature-icon mb-3"></i>
+            <h3>Feature 2</h3>
+            <p>Description of feature 2.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="text-center">
+            <i class="fas fa-users feature-icon mb-3"></i>
+            <h3>Feature 3</h3>
+            <p>Description of feature 3.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Contact Us</h2>
+          <p>Get in touch with us for any inquiries or to request a demo.</p>
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg">Send</button>
+          </form>
+        </div>
+        <div class="col-md-6 align-self-center">
+          <div class="text-center">
+            <i class="fas fa-envelope-open-text fa-5x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container text-center">
+      <p>&copy; 2024 Your Business Name. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
